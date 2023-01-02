@@ -7,7 +7,7 @@ import { TodosProvider } from './src/contexts/TodosContext'
 
 export default function App () {
   return (
-    <SafeAreaView style={ styles.container } forceInset={ { vertical: 'never' } }>
+    <SafeAreaView style={ styles.container }>
       <TodosProvider>
         <Main />
       </TodosProvider>
@@ -18,8 +18,6 @@ export default function App () {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'red',
-    maxHeight: '95%',
     overflow: 'hidden',
     marginTop: Constants.statusBarHeight
   }
