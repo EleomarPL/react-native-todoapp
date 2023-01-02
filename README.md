@@ -1,4 +1,4 @@
-# Portafolio | Eleomar Pedro Lorenzo
+# TodoApp móvil
 
 Aplicación móvil para llevar un control de listas de tareas, es mi primera aplicación móvil usando React Native con Expo.
 
